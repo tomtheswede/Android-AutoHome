@@ -272,7 +272,7 @@ public class Dashboard extends AppCompatActivity {
     public void updateTemperatures(String time, String temp1, String temp2, String hum1,String hum2) {
         final TextView tx6 = (TextView) findViewById(R.id.textView6);
 
-        tx6.setText("Indoor: Temperature of "+temp1+"°C at "+hum1+"% humidity.\nOutdoor: Temperature of " + temp2+"°C at "+hum2+"% humidity.\nLast update at: " + time);
+        tx6.setText("Living room: Temperature of "+temp1+"°C at "+hum1+"% humidity.\nOutdoor: Temperature of " + temp2+"°C at "+hum2+"% humidity.\nLast update at: " + time);
     }
 
     private class udpSendMessage extends AsyncTask<String,Void,Void> {
