@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AutoHome</string>
+    <string name="button0_name">Refresh Weather</string>
+    <string name="button1_name">Toggle</string>
+    <string name="button2_name">Toggle</string>
+    <string name="button3_name">Toggle</string>
+    <string name="button4_name">On</string>
+    <string name="button4a_name">Off</string>
+    <string name="button5_name">All off</string>
+    <string name="button1_label">Bedroom</string>
+    <string name="button2_label">Study</string>
+    <string name="button3_label">Outside</string>
+    <string name="button4_label">Retic</string>
+    <string name="button5_label">All off</string>
+    <string name="status_label">Last command: </string>
+    <string name="defaultServerIP">192.168.0.100</string>
+    <string name="defaultServerPort">5007</string>
+    <string name="defaultButton1Desc">Bedroom</string>
+    <string name="defaultButton2Desc">Study</string>
+    <string name="defaultButton3Desc">Outside</string>
+    <string name="defaultButton4Desc">Retic</string>
+    <string name="defaultButton5Desc">All off</string>
+    <string name="defaultButton0ID">CMD003</string>
+    <string name="defaultButton1ID">LED001</string>
+    <string name="defaultButton2ID">LED002</string>
+    <string name="defaultButton3ID">LED003</string>
+    <string name="defaultButton4ID">RET003</string>
+    <string name="defaultButton5ID">CMD003</string>
+
+</resources>

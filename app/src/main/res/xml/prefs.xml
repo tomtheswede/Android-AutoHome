@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Server IP"
+        android:summary="The IP address for the Server"
+        android:key="server_IP"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:defaultValue="@string/defaultServerIP">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Server Port"
+        android:summary="The port number for the Server"
+        android:key="server_Port"
+        android:numeric="integer"
+        android:maxLength="5"
+        android:defaultValue="@string/defaultServerPort">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Weather button"
+        android:summary="The device ID for the message destination"
+        android:key="cmd_0"
+        android:maxLength="6"
+        android:defaultValue="@string/defaultButton0ID">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Button description 1"
+        android:summary="The readable description of option 1"
+        android:key="desc_1"
+        android:maxLength="16"
+        android:defaultValue="@string/defaultButton1Desc">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Command button 1"
+        android:summary="The device ID for the message destination"
+        android:key="cmd_1"
+        android:maxLength="6"
+    android:defaultValue="@string/defaultButton1ID">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Button description 2"
+        android:summary="The readable description of option 2"
+        android:key="desc_2"
+        android:maxLength="16"
+        android:defaultValue="@string/defaultButton2Desc">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Command button 2"
+        android:summary="The device ID for the message destination"
+        android:key="cmd_2"
+        android:maxLength="6"
+        android:defaultValue="@string/defaultButton2ID">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Button Description 3"
+        android:summary="The readable description of option 3"
+        android:key="desc_3"
+        android:maxLength="16"
+        android:defaultValue="@string/defaultButton3Desc">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Command button 3"
+        android:summary="The device ID for the message destination"
+        android:key="cmd_3"
+        android:maxLength="6"
+        android:defaultValue="@string/defaultButton3ID">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Button Description 4"
+        android:summary="The readable description of option 4"
+        android:key="desc_4"
+        android:maxLength="16"
+        android:defaultValue="@string/defaultButton4Desc">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Command button 4"
+        android:summary="The device ID for the message destination"
+        android:key="cmd_4"
+        android:maxLength="6"
+        android:defaultValue="@string/defaultButton4ID">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="All off button"
+        android:summary="The device ID for the message destination"
+        android:key="cmd_5"
+        android:maxLength="6"
+        android:defaultValue="@string/defaultButton5ID">
+    </EditTextPreference>
+
+</PreferenceScreen>
